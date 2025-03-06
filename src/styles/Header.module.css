@@ -1,0 +1,57 @@
+/* styles/Header.module.css */
+.header {
+    background-color: #eeececa8; /* Light gray background */
+    padding: 15px 40px; /* Padding for spacing */
+    border-radius: 60px; /* Rounded edges */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 80px;
+    max-width: 1300px; /* Keeps it centered and not too wide */
+    margin: 20px auto; /* Centers the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 70px; /* Proper spacing between links */
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #291e66; /* Dark text color */
+    font-weight: 540;
+    font-size: 2.0rem; /* Standard text size */
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #6A5ACD; /* Soft hover effect */
+}
+
+/* Contact Us Button */
+.navLinkb {
+    text-decoration: none;
+    color: white;
+    background-color: #7779d1;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.navLinkb:hover {
+    background-color: #7879DA;
+}

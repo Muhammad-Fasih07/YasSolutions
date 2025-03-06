@@ -1,0 +1,126 @@
+.footer {
+    background-color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    width: 100%;
+    margin-left: 100px;
+   
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;  /* Increased width */
+}
+
+/* Top Section: Logo + Navigation */
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;  /* Increased width */
+}
+
+/* Logo Section */
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logoImage {
+    width: 100px;
+    height: auto;
+}
+
+.solutionText {
+    color: #9ea2ff;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: -3px;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 90px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1F1650;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Horizontal Line */
+.divider {
+    width: 100%;
+    max-width: 1200px;  /* Increased width */
+    height: 1px;
+    background-color: #9194fd;
+    margin: 10px 0;
+}
+
+/* Bottom Section: Contact & Social Icons */
+.bottomSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;  /* Increased width */
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F1650;
+}
+
+.icon {
+    font-size: 30px;
+    color: #1F1650;
+}
+.icon:hover {
+    color: #9ea2ff;
+}
+
+/* Social Media Icons */
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.socialIcon {
+    font-size: 45px;
+    color: #594CFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.socialIcon:hover {
+    color: #9ea2ff;
+}
+
+/* Copyright */
+.copyright {
+    font-size: 18px;
+    color: #1F1650;
+    margin-top: 10px;
+}
